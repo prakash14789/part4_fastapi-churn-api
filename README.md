@@ -191,25 +191,18 @@ This Docker setup provides an additional reproducible deployment option and allo
 
 Returns API status information.
 
+
 ### Example Response
 
 ```json
-	
-Response body
-Download
 {
   "message": "Customer Churn Prediction API",
   "docs": "/docs"
 }
-Response headers
- content-length: 58 
- content-type: application/json 
- date: Wed,03 Jun 2026 03:32:25 GMT 
- server: uvicorn 
 ```
 
----
 
+---
 ## GET /health
 
 Health check endpoint.
